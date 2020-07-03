@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mysunshinefamilydental/static/css/main.5f361e03.chunk.css",
+    "main.js": "/mysunshinefamilydental/static/js/main.86b3afc3.chunk.js",
+    "main.js.map": "/mysunshinefamilydental/static/js/main.86b3afc3.chunk.js.map",
+    "runtime-main.js": "/mysunshinefamilydental/static/js/runtime-main.edd27c42.js",
+    "runtime-main.js.map": "/mysunshinefamilydental/static/js/runtime-main.edd27c42.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/mysunshinefamilydental/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.35363d11.chunk.js": "/mysunshinefamilydental/static/js/2.35363d11.chunk.js",
+    "static/js/2.35363d11.chunk.js.map": "/mysunshinefamilydental/static/js/2.35363d11.chunk.js.map",
+    "index.html": "/mysunshinefamilydental/index.html",
+    "precache-manifest.b71a6583d09c082f0d63e0ffdf30a84e.js": "/mysunshinefamilydental/precache-manifest.b71a6583d09c082f0d63e0ffdf30a84e.js",
+    "service-worker.js": "/mysunshinefamilydental/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/mysunshinefamilydental/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/mysunshinefamilydental/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.35363d11.chunk.js.LICENSE.txt": "/mysunshinefamilydental/static/js/2.35363d11.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mysunshinefamilydental/static/media/logo.e8e0b0ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edd27c42.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.35363d11.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.86b3afc3.chunk.js"
+  ]
+}
