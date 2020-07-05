@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "google-map-react": "^1.1.7",
     "react-bootstrap": "^1.0.1"
   }
 }
