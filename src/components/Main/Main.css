@@ -1,0 +1,34 @@
+main > .container {
+    padding: 60px 15px 0;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  .body {
+    background-color: #EFEFEF;
+    height: 60vh;
+    padding-top: 6rem;
+  }
+  
+  .body h1 {
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .carousel-caption h3 {
+      font-size: 1rem ;
+    }
+  
+    .carousel-caption h1 {
+      font-size: 1.5rem;
+    }
+  
+    .body {
+      background-color: #EFEFEF;
+      height: 60vh;
+      padding-top: 2rem;
+    }
+  }
+  

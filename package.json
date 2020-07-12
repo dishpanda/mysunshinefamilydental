@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dishpanda.github.io/mysunshinefamilydental",
+  "homepage": "/",
   "name": "mysunshinefamilydental",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "google-map-react": "^1.1.7",
-    "react-bootstrap": "^1.0.1"
+    "react-bootstrap": "^1.0.1",
+    "react-router-dom": "^5.2.0"
   }
 }
