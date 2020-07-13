@@ -20,7 +20,7 @@ class Main extends Component {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/mysunshinefamilydental/"
             render={() => (
               <div>
                 <Container>
