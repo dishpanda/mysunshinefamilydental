@@ -2,7 +2,7 @@ import React from "react";
 import {Container} from "react-bootstrap";
 
 export default (props) => {
-  console.log('Rendering MeetTheDoctor');
+  console.log('Rendering 404');
 
   return (
     <Container>
