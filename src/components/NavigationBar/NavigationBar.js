@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../logo.svg";
 
-import { LinkContainer } from "react-router-bootstrap";
-import { Route, Switch } from "react-router-dom";
-
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-
-import MeetTheDoctor from "../MeetTheDoctor/MeetTheDoctor";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 class NavigationBar extends Component {
   render() {
@@ -23,7 +18,7 @@ class NavigationBar extends Component {
             />
             Sunshine Family Dental
             <Container>
-              <small class="text-muted">Dr. Srutee Dogra, DDS</small>
+              <small className="text-muted">Dr. Srutee Dogra, DDS</small>
             </Container>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

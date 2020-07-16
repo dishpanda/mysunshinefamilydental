@@ -1,15 +1,16 @@
 import React from "react";
-import { Container, Carousel, Button } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
+import "../HomeCarousel/HomeCarousel.css"
 
 export default (props) => {
   console.log("Rendering Home Carousel");
 
   return (
-    <Container>
-      <Carousel>
+    <div className="carousel-container">
+      <Carousel interval="10000">
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block"
             src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb"
             alt="First slide"
           />
@@ -50,6 +51,6 @@ export default (props) => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </Container>
+    </div>
   );
 };

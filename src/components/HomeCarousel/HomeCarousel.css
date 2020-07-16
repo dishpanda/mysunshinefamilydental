@@ -1,0 +1,5 @@
+.carousel-fade .carousel-item,
+.carousel-item img {
+  max-width: 60vw;
+  margin: auto;
+}
