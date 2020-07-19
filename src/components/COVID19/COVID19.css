@@ -1,6 +1,35 @@
 .page-body {
-    padding-top: 5vh;
-    width: 40vw!important;
-    margin: auto!important;
+  padding: 6.6vmax 0;
+    width: 90vw !important;
+  margin: auto !important;
 }
 
+.heading-custom-2 {
+  font-size: calc(2.16vw + 1rem);
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+.heading-custom-4 {
+  font-size: calc(0.72vw + 1rem);
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+.heading-custom-5 {
+  font-size: calc(0.36vw + 1rem);
+  margin: 2rem 0;
+}
+
+.heading-custom-5 ul > li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 993px) {
+  .page-body {
+    padding: 6.6vmax 0;
+    width: 90vw !important;
+    margin: auto !important;
+  }
+}

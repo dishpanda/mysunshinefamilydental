@@ -10,8 +10,12 @@
   display: block;
   border: none;
   top: 0;
-  width: 20vw;
+  width: 30vw;
   height: 20vh;
+}
+
+footer a {
+    color: #FAD87C!important;
 }
 
 @media only screen and (max-width: 600px) {

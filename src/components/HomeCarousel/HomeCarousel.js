@@ -14,11 +14,11 @@ export default (props) => {
             src="https://images.squarespace-cdn.com/content/v1/5e28d1d9752be803fc520a9d/1583378848530-7DVXN62HS08H1TS3Z4VT/ke17ZwdGBToddI8pDm48kOsfPsfwz_5GLHyitAdgvmYUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dgtjcgy--ILNvUKp8yktQMuyeyyopepzMhqzdOLDs71_JvwGh1qtNWvMhYKnvaKhbA/Home-Lobby_2.jpg?format=2500w"
             alt="First slide"
           />
-          {/* <Carousel.Caption>
-            <h3>Complete Dental Care</h3>
-            <h1>You Can Trust</h1>
-            <Button href="tel:9253169800">Phone Number</Button>{" "}
-          </Carousel.Caption> */}
+          <Carousel.Caption>
+            {/* <h3>Complete Dental Care</h3>
+            <h1>You Can Trust</h1> */}
+            <Button href="tel:9256009006">Call Today!</Button>{" "}
+          </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>

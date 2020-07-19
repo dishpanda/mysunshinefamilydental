@@ -1,13 +1,13 @@
 import React from "react";
-import { Carousel, Button } from "react-bootstrap";
-import "../HomeCarousel/HomeCarousel.css"
+import FourZeroFour from "../FourZeroFour";
+import "./Insurance.css"
 
 export default (props) => {
   console.log("Rendering Insurance");
 
   return (
     <div className="carousel-container">
-
+      <FourZeroFour/>
     </div>
   );
 };

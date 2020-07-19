@@ -8,16 +8,16 @@ export default (props) => {
 
   return (
     <Container className="page-body">
-      <strong className="text-center display-1">COVID-19 Update</strong>
+      <h2 className="heading-custom-2">COVID-19 Update</h2>
 
-      <h4>
+      <h4 className="heading-custom-4">
         We have authorization from the Alameda County Health Department to
         reopen our office under new safety guidelines. We have always practiced
         universal precautions as outlined by CDC and OSHA standards of infection
         control. Currently, we are taking additional measures to further protect
         our patients and employees with the following protocols:
       </h4>
-      <h5 className="text-muted">
+      <h5 className="text-muted heading-custom-5">
         <ul>
           <li>
             In compliance with the recommendations for public health, anyone
