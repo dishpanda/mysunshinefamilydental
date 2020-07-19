@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: top;
+}
+
+.map {
+  display: block;
+  border: none;
+  top: 0;
+  width: 20vw;
+  height: 20vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    display: block;
+  }
+  .map {
+      width: 100%;
+  }
+}

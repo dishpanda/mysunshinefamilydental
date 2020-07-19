@@ -3,7 +3,6 @@ import "./Main.css";
 
 import { Route, Switch } from "react-router-dom";
 
-import MeetTheDoctor from "../MeetTheDoctor/MeetTheDoctor";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import HomeCarousel from "../HomeCarousel/HomeCarousel";
 import COVID19 from "../COVID19/COVID19";
@@ -57,7 +56,7 @@ class Main extends Component {
           <Route
             exact
             path="/mysunshinefamilydental/MeetTheDoctor"
-            render={() => <MeetTheDoctor />}
+            render={() => <div></div>}
           />
           <Route exact path="/mysunshinefamilydental/COVID-19" render={()=> <COVID19/> }/>
           <Route exact path="/mysunshinefamilydental/services" render={()=> <Services/> }/>
