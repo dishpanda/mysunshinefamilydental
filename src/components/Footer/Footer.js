@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export default (props) => {
@@ -42,21 +42,19 @@ export default (props) => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/COVID-19">
-                  COVID-19
-                </Link>
+                <Link to="/COVID-19">COVID-19</Link>
               </li>
               <li>
-                <a href="/mysunshinefamilydental/Services"> Services </a>
+                <Link to="/Services"> Services </Link>
               </li>
               <li>
-                <a href="/mysunshinefamilydental/Forms"> Forms </a>
+                <Link to="/Forms"> Forms </Link>
               </li>
               <li>
-                <a href="/mysunshinefamilydental/Insurance"> Insurance </a>
+                <Link to="/Insurance"> Insurance </Link>
               </li>
               <li>
-                <a href="/mysunshinefamilydental/Contact"> Contact </a>
+                <Link to="/Contact"> Contact </Link>
               </li>
             </ul>
           </div>
