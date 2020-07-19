@@ -1,3 +1,7 @@
+.full {
+  background-color: #e9eff1;
+}
+
 main > .container {
   padding: 60px 15px 0;
 }
@@ -7,7 +11,7 @@ body {
 }
 
 .body {
-  background-color: #efefef;
+  /* background-color: #efefef; */
   height: 60vh;
   padding-top: 6rem;
 }
@@ -26,7 +30,7 @@ body {
 }
 
 .page-body {
-  padding-top: 5vh;
+  padding-top: 10vh!important;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,14 +1,18 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
 import "./COVID19.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDisease } from "@fortawesome/free-solid-svg-icons";
 
 export default (props) => {
-  console.log("Rendering MeetTheDoctor");
+  console.log("Rendering COVID-19");
 
   return (
     <Container className="page-body">
-      <h2 className="heading-custom-2">COVID-19 Update</h2>
+      <h2 className="heading-custom-2">
+        <FontAwesomeIcon icon={faDisease}/>{" "}
+        COVID-19 Update
+      </h2>
 
       <h4 className="heading-custom-4">
         We have authorization from the Alameda County Health Department to

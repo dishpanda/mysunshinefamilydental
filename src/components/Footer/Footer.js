@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import {Link} from "react-router-dom";
 import "./Footer.css";
 
 export default (props) => {
@@ -27,7 +28,8 @@ export default (props) => {
             ></iframe>
             <p>
               <small>
-                &copy; {new Date().getFullYear()} Sunshine Family Dental, a Dental Company <br />
+                &copy; {new Date().getFullYear()} Sunshine Family Dental, a
+                Dental Company <br />
                 Website built and designed by{" "}
                 <a href="https://dishpanda.github.io/">Rahul Deshpande</a>
               </small>
@@ -37,10 +39,12 @@ export default (props) => {
             <h3>About Our Practice</h3>
             <ul class="list-unstyled">
               <li>
-                <a href="/mysunshinefamilydental"> Home </a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/mysunshinefamilydental/COVID-19"> COVID-19 </a>
+                <Link to="/COVID-19">
+                  COVID-19
+                </Link>
               </li>
               <li>
                 <a href="/mysunshinefamilydental/Services"> Services </a>
