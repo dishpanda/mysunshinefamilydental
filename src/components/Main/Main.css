@@ -10,16 +10,6 @@ body {
   height: 100%;
 }
 
-.body {
-  /* background-color: #efefef; */
-  height: 60vh;
-  padding-top: 6rem;
-}
-
-.body h1 {
-  text-align: center;
-}
-
 .footer {
   position: relative;
   left: 0;
@@ -29,10 +19,6 @@ body {
   color: white;
 }
 
-.page-body {
-  padding-top: 10vh!important;
-}
-
 @media only screen and (max-width: 600px) {
   .carousel-caption h3 {
     font-size: 1rem;
@@ -40,11 +26,5 @@ body {
 
   .carousel-caption h1 {
     font-size: 1.5rem;
-  }
-
-  .body {
-    background-color: #efefef;
-    height: 60vh;
-    padding-top: 2rem;
   }
 }

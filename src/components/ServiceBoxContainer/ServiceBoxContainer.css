@@ -1,0 +1,24 @@
+.flex-services-container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-services-container > div{
+    width: 22%;
+    padding: 0 2%;
+}
+
+@media only screen and (max-width: 992px) {
+    .flex-services-container {
+        flex-wrap: nowrap;
+        display: block;
+    }
+    .flex-services-container > div {
+        width: 100%;
+        padding: 2% 0;
+    }
+
+}

@@ -1,0 +1,17 @@
+.body {
+  /* background-color: #efefef; */
+  padding: 6rem 0;
+  width: 100%;
+}
+
+.body h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: #efefef;
+    padding-top: 2rem;
+  }
+
+}

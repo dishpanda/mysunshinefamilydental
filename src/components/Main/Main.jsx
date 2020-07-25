@@ -4,7 +4,7 @@ import "./Main.css";
 import { Route, Switch } from "react-router-dom";
 
 import NavigationBar from "../NavigationBar/NavigationBar";
-import HomeCarousel from "../HomeCarousel/HomeCarousel";
+import Home from "../Home/Home";
 import COVID19 from "../COVID19/COVID19";
 import Services from "../Services/Services";
 import Forms from "../Forms/Forms";
@@ -13,7 +13,6 @@ import Contact from "../Contact/Contact";
 import FourZeroFour from "../FourZeroFour";
 import Footer from "../Footer/Footer";
 
-import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class Main extends Component {
@@ -23,40 +22,24 @@ class Main extends Component {
         <NavigationBar />
 
         <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <div>
-                <div className="my-5" >
-                  <HomeCarousel/>
-                </div>
-                <div className="body">
-                  <Container>
-                    <h1>Welcome to Sunshine Family Dental.</h1>
-                    <hr />
-                  </Container>
-                </div>
-              </div>
-            )}
-          />
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route exact path="/COVID-19">
             <COVID19 />
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/Services">
             <Services />
           </Route>
-          <Route exact path="/mysunshinefamilydental/forms">
+          <Route exact path="/Forms">
             <Forms />
           </Route>
-          <Route exact path="/mysunshinefamilydental/insurance">
+          <Route exact path="/Insurance">
             <Insurance />
           </Route>
-          <Route
-            exact
-            path="/mysunshinefamilydental/contact"
-            render={() => <Contact />}
-          />
+          <Route exact path="/Contact">
+            <Contact />
+          </Route>
           <Route path="*">
             <FourZeroFour />
           </Route>

@@ -14,7 +14,7 @@ export default (props) => {
         <h1 className="text-muted">¯\_(ツ)_/¯</h1>
         <h2>Error 404</h2>
         <p>
-          <code>{useLocation().pathname}</code> is not quite ready for you yet!
+          <code>{useLocation().pathname}</code> might not exist or it's just not ready for you yet.
           Try again some other time.
         </p>
         <p>
