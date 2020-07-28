@@ -29,7 +29,7 @@ export default (props) => {
             <Container>
               <h3>Shoot us an email if you have any questions!</h3>
               <h5>
-                Schedule an appointment by calling us at <a>9253169800</a>
+                Schedule an appointment by calling us at <a href="tel:9256009006">925·600·9006</a>
               </h5>
               <InputGroup className="mb-3">
                 <InputGroup.Prepend>

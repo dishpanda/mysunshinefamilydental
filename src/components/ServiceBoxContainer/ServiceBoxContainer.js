@@ -65,7 +65,7 @@ export default (props) => {
       <div>
         <ServiceBox
           name="Invisalign"
-          body="Everyone wants a great smile, but many of us need help to get there. Clear aligners are often effective in correcting a smile. We offer Invisalign®, a series of custom made clear aligners that gradually straighten teeth."
+          body="Everyone wants a great smile, but many of us need help to get there. Clear aligners are often effective in correcting a smile. We offer Invisalign&reg;, a series of custom made clear aligners that gradually straighten teeth."
         />
         <Link to="/">
           <a href="/">Learn More</a>

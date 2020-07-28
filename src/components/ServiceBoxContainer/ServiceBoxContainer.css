@@ -7,8 +7,9 @@
 }
 
 .flex-services-container > div{
-    width: 22%;
-    padding: 0 2%;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
 }
 
 @media only screen and (max-width: 992px) {

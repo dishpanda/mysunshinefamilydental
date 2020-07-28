@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import ServiceBox from "../ServiceBox/ServiceBox";
+
 import ServiceBoxContainer from "../ServiceBoxContainer/ServiceBoxContainer";
 import "./Services.css";
 import { Container } from "react-bootstrap";
