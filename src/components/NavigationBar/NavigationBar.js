@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "../../logo.svg";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 class NavigationBar extends Component {
   render() {
@@ -32,9 +32,43 @@ class NavigationBar extends Component {
               <Link to="/COVID-19">
                 <Nav.Link href="/COVID-19">COVID-19</Nav.Link>
               </Link>
-              <Link to="/Services">
-                <Nav.Link href="/Services">Services</Nav.Link>
-              </Link>
+              <NavDropdown title="Services" id="basic-nav-dropdown">
+                <NavDropdown.Item>
+                  <Link to="/Services/Overview">Overview</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/CleaningAndPrevention">Cleaning & Prevention</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/Restorations">Restorations</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/Veneers">Veneers</Link>
+                </NavDropdown.Item>
+                
+                <NavDropdown.Item>
+                  <Link to="/Services/ImplantsAndBridges">Implants & Bridges</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/RootCanals">Root Canals</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/Extractions">Extractions</Link>
+                </NavDropdown.Item>
+                
+                <NavDropdown.Item>
+                  <Link to="/Services/Invisalign">Invisalign</Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/Services/Dentures">Dentures</Link>
+                </NavDropdown.Item>
+              </NavDropdown>
               <Link to="/Forms">
                 <Nav.Link href="/Forms">Forms</Nav.Link>
               </Link>

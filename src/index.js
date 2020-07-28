@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import ScrollToTop from "./ScrollToTop";
 import { HashRouter } from "react-router-dom";
 
 import * as serviceWorker from "./serviceWorker";
@@ -9,7 +10,9 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter basename="/">
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")

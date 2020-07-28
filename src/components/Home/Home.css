@@ -1,6 +1,6 @@
 .body {
   /* background-color: #efefef; */
-  padding: 6rem 0;
+  padding: 2rem 0;
   width: 100%;
 }
 
@@ -8,7 +8,28 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+.heading-custom-2 {
+  font-size: calc(2.16vw + 1rem);
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+.heading-custom-4 {
+  font-size: calc(0.72vw + 1rem);
+  margin: 2rem 0;
+  font-weight: 500;
+}
+
+.heading-custom-5 {
+  font-size: calc(0.36vw + 1rem);
+  margin: 2rem 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .heading-custom-2 {
+    text-align: center;
+  }
+
   .body {
     background-color: #efefef;
     padding-top: 2rem;

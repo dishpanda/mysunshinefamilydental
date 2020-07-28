@@ -18,7 +18,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class Main extends Component {
   render() {
     return (
-      <div class="full">
+      <div className="full">
         <NavigationBar />
 
         <Switch>
@@ -28,7 +28,7 @@ class Main extends Component {
           <Route exact path="/COVID-19">
             <COVID19 />
           </Route>
-          <Route exact path="/Services">
+          <Route exact path="/Services/Overview">
             <Services />
           </Route>
           <Route exact path="/Forms">

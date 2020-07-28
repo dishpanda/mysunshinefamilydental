@@ -37,7 +37,7 @@ export default (props) => {
           </div>
           <div>
             <h3>About Our Practice</h3>
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <Link to="/">Home</Link>
               </li>

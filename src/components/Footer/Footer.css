@@ -22,7 +22,7 @@ footer a {
     color: #FAD87C!important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .flex-container {
     display: block;
   }
