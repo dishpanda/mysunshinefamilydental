@@ -45,7 +45,7 @@ export default (props) => {
                 <Link to="/COVID-19">COVID-19</Link>
               </li>
               <li>
-                <Link to="/Services"> Services </Link>
+                <Link to="/Services/Overview"> Services </Link>
               </li>
               <li>
                 <Link to="/Forms"> Forms </Link>

@@ -62,7 +62,7 @@ export default (props) => {
           name="Dentures"
           body="Dentures are used when teeth are missing. We provide both partial and complete dentures. A partial denture fills in the spaces created by missing teeth. Complete dentures are used when all of the teeth are missing. "
         />
-        <Link to="/Services/Dentures">Forms</Link>
+        <Link to="/Services/Dentures">Learn More</Link>
       </div>
     </div>
   );

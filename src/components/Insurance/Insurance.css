@@ -1,0 +1,30 @@
+.insurance-logo {
+    width: 100%;
+}
+
+.flex-insurance-container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-insurance-container > div{
+    width: 33%;
+    padding: 3%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .flex-insurance-container {
+        flex-wrap: nowrap;
+        display: block;
+    }
+    .flex-insurance-container > div {
+        width: 100%;
+        padding: 2% 0;
+    }
+
+}

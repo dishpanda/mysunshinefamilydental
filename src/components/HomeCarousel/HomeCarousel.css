@@ -21,18 +21,19 @@
   position: absolute;
   background-size: cover;
   filter: brightness(65%);
+  background-position: center center;
 }
 
 .image1::before {
-  background-image: url("../../images/front.jpeg");
+  background-image: url("../../images/front.jpg");
 }
 
 .image2::before {
-  background-image: url("../../images/chair.jpeg");
+  background-image: url("../../images/chair.jpg");
 }
 
 .image3::before {
-  background-image: url("../../images/waiting.jpeg");
+  background-image: url("../../images/waiting.jpg");
 }
 
 .carousel-item {
