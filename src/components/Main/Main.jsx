@@ -14,6 +14,14 @@ import FourZeroFour from "../FourZeroFour";
 import Footer from "../Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import CleaningAndPrevention from "../Services/CleaningAndPrevention";
+import Restorations from "../Services/Restorations";
+import Veneers from "../Services/Veneers";
+import ImplantsAndBridges from "../Services/ImplantsAndBridges";
+import RootCanals from "../Services/RootCanals";
+import Extractions from "../Services/Extractions";
+import Invisalign from "../Services/Invisalign";
+import Dentures from "../Services/Dentures";
 
 class Main extends Component {
   render() {
@@ -39,6 +47,30 @@ class Main extends Component {
           </Route>
           <Route exact path="/Contact">
             <Contact />
+          </Route>
+          <Route exact path="/Services/CleaningAndPrevention">
+            <CleaningAndPrevention />
+          </Route>
+          <Route exact path="/Services/Restorations">
+            <Restorations />
+          </Route>
+          <Route exact path="/Services/Veneers">
+            <Veneers />
+          </Route>
+          <Route exact path="/Services/ImplantsAndBridges">
+            <ImplantsAndBridges />
+          </Route>
+          <Route exact path="/Services/RootCanals">
+            <RootCanals />
+          </Route>
+          <Route exact path="/Services/Extractions">
+            <Extractions />
+          </Route>
+          <Route exact path="/Services/Invisalign">
+            <Invisalign />
+          </Route>
+          <Route exact path="/Services/Dentures">
+            <Dentures />
           </Route>
           <Route path="*">
             <FourZeroFour />

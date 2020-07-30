@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import ServiceBox from "../ServiceBox/ServiceBox";
 import "./Insurance.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileInvoiceDollar, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faFileInvoiceDollar } from "@fortawesome/free-solid-svg-icons";
 import { Container } from "react-bootstrap";
 
 export default (props) => {
