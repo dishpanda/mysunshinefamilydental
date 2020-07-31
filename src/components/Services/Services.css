@@ -13,6 +13,64 @@
   max-width: 100%;
 }
 
+.flex-container-50 img {
+  max-width: 100%;
+}
+
+.flex-container-50 {
+  display: flex;
+  align-items: top;
+  justify-content: baseline;
+}
+
+.flex-container-50 > div {
+  width: 50%;
+  padding: 2%;
+}
+
+ol > .heading-custom-5 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.flex-container-50 .heading-custom-5 {
+  margin-top: 0 !important;
+}
+
+.flex-thirds {
+  display: flex;
+  justify-items: baseline;
+}
+
+.flex-thirds > div {
+  width: 33%;
+  padding: 2%;
+}
+
+.image-container-1 {
+  height: 20vh;
+  width: 100%;
+  background-image: url("https://lifeisanepisode.com/wp-content/uploads/invisalign-clear-aligners.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.image-container-2 {
+  height: 20vh;
+  width: 100%;
+  background-image: url("https://www.profilodental.com.au/assets/Uploads/Invisalign-Clear-Aligners-Braces-Profilo-Dental-Care-Newcastle-Sydney3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.image-container-3 {
+  height: 20vh;
+  width: 100%;
+  background-image: url("https://www.dentistryspringfieldvt.com/images/aligner-wide.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 992px) {
   .flex-service-container {
     display: block;
@@ -20,5 +78,28 @@
   .flex-service-container > div {
     width: 100%;
     padding: 2%;
+  }
+
+  .image-container-1,
+  .image-container-2,
+  .image-container-3 {
+    height: 30vh;
+  }
+
+  .flex-container-50 {
+    display: block;
+  }
+
+  .flex-container-50 > div {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .flex-thirds {
+    display: block;
+  }
+
+  .flex-thirds > div {
+    width: 100%;
   }
 }

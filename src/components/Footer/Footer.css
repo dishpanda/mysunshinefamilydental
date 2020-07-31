@@ -1,13 +1,23 @@
 .footer {
-  bottom: 0
+  bottom: 0;
 }
 
-.flex-container {
+.flex-container-6040 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: top;
+}
+
+.flex-div-60 {
+  width: 60%;
+  padding: 0 2%;
+}
+
+.flex-div-40 {
+  width: 40%;
+  padding: 0 2%;
 }
 
 .map {
@@ -19,14 +29,19 @@
 }
 
 footer a {
-    color: #FAD87C!important;
+  color: #fad87c !important;
 }
 
 @media only screen and (max-width: 992px) {
-  .flex-container {
+  .flex-container-6040 {
     display: block;
   }
   .map {
-      width: 100%;
+    width: 100%;
+  }
+  .flex-div-60,
+  .flex-div-40 {
+    width: 100%;
+    padding: 0 2%;
   }
 }

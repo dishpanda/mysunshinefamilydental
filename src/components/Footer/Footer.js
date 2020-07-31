@@ -9,8 +9,8 @@ export default (props) => {
   return (
     <footer className="footer mt-auto py-3 bg-dark text-white">
       <Container>
-        <div className="flex-container">
-          <div>
+        <div className="flex-container-6040">
+          <div className="flex-div-60">
             <h3>Sunshine Family Dental</h3>
             <h5>Dr. Srutee Dogra, DDS</h5>
             <p>
@@ -32,10 +32,15 @@ export default (props) => {
                 Dental Company <br />
                 Website built and designed by{" "}
                 <a href="https://dishpanda.github.io/">Rahul Deshpande</a>
+                <br />
+                Some of the images used on this website are royalty free,
+                collected from various sources, including but not limited to{" "}
+                <a href="https://unsplash.com/">Unsplash</a> and{" "}
+                <a href="https://pexels.com">Pexels</a>.
               </small>
             </p>
           </div>
-          <div>
+          <div className="flex-div-40">
             <h3>About Our Practice</h3>
             <ul className="list-unstyled">
               <li>
