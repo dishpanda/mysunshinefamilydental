@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mysunshinefamilydental/precache-manifest.8d842bcd4e7d99778f08d6bc736cab25.js"
+  "/mysunshinefamilydental/precache-manifest.1c7ecc25436bb9f6ae6e0d49621084b9.js"
 );
 
 self.addEventListener('message', (event) => {
