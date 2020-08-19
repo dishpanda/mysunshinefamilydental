@@ -6,12 +6,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons";
 
 export default (props) => {
-  console.log("Rendering Implants & Bridges");
+  console.log("Rendering Implants");
 
   return (
     <Container className="page-body">
       <h2 className="heading-custom-2">
-        <FontAwesomeIcon icon={faTooth} /> Implants & Crowns
+        <FontAwesomeIcon icon={faTooth} /> Implants
       </h2>
       <div className="flex-service-container">
         <div>

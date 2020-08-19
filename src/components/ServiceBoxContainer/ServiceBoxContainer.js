@@ -31,7 +31,7 @@ export default (props) => {
       </div>
       <div>
         <ServiceBox
-          name="Implants & Crowns"
+          name="Implants"
           body="Dental implants are titanium metal posts that are surgically positioned into the jawbone to serve as artificial teeth roots for missing teeth. Once implants are properly inserted, Dr. Dogra will carefully mount the replacement teeth onto them."
         />
         <Link to="/Services/Implants">Learn More</Link>

@@ -60,7 +60,7 @@ export default (props) => {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/Services/Implants">Implants & Crowns</Link>
+                <Link to="/Services/Implants">Implants</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
