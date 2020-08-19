@@ -12,7 +12,12 @@ export default (props) => {
       <h2 className="heading-custom-2">
         <FontAwesomeIcon icon={faFileInvoiceDollar} /> Insurances We Accept
       </h2>
-      <h3 className="text-muted heading-custom-3">We accept Delta Dental, Aetna, Cigna, MetLife, Blue Shield of California, and most PPO plans.</h3>
+      <h3 className="heading-custom-3">
+        We accept most insurances and PPO Plans. If you don’t see your PPO plan
+        listed here, please call our office for more information. We work with
+        Delta Dental, Aetna, Anthem, Ameritas, Blue Cross, Blue Shield of
+        California, Cigna, Guardian, Humana, Metlife, Principal and many more.
+      </h3>
       <div className="flex-insurance-container">
         <div>
           <a href="https://deltadental.com">

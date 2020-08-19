@@ -10,18 +10,28 @@ export default (props) => {
   return (
     <Container className="page-body">
       <h2 className="heading-custom-2">
-        <FontAwesomeIcon icon={faDisease}/>{" "}
-        COVID-19 Update
+        <FontAwesomeIcon icon={faDisease} /> COVID-19 Update
       </h2>
-
       <h4 className="heading-custom-4">
-        We have authorization from the Alameda County Health Department to
-        reopen our office under new safety guidelines. We have always practiced
-        universal precautions as outlined by CDC and OSHA standards of infection
-        control. Currently, we are taking additional measures to further protect
-        our patients and employees with the following protocols:
+        We are open and here for you! <br />
       </h4>
-      <h5 className="text-muted heading-custom-5">
+      <h4>
+        We hope you and your families have remained safe during these trying
+        times. As always, our primary concern is your health and safety!
+      </h4>
+      <br />
+      <h4>
+        If you had an appointment during the Shelter-in-Place, our staff will be
+        reaching out to you to reschedule. If you would like to get in sooner,
+        please call <a href="9256009006">(925) 600-9006</a>.
+      </h4>
+      <h4>
+        We have always practiced universal precautions as outlined by CDC and
+        OSHA standards of infection control. Currently, we are taking additional
+        measures to further protect our patients and employees with the
+        following protocols:
+      </h4>
+      <h5 className="heading-custom-5">
         <ul>
           <li>
             In compliance with the recommendations for public health, anyone
@@ -36,9 +46,13 @@ export default (props) => {
             procedure.
           </li>
           <li>
-            In compliance with CDC guidelines, we are required to take patients’
-            temperature and fill in a patient screening form (if it wasn’t
-            completed in a text message confirmation prior to the appointment).
+            In compliance with CDC guidelines, we are required to take the
+            patient's temperature and fill in a patient screening form.
+          </li>
+          <li>
+            We will have hand sanitizers available in our waiting room and every
+            treatment room. We request all patients to use hand sanitizer upon
+            entering and exiting the office.
           </li>
           <li>
             At the beginning of an appointment, we will ask our patient to rinse
@@ -46,25 +60,19 @@ export default (props) => {
             the American Dental Association (ADA).
           </li>
           <li>
-            We will have hand sanitizers available in our waiting room and every
-            treatment room, so that all patients can sanitize their hands when
-            entering our practice.
-          </li>
-          <li>
             For an extra layer of safety, we have acquired FDA approved air
-            purifiers, manufactured by Molekule. These purifiers break down
-            pollutants in the air at a molecular level, including VOCs,
-            bacteria, mold, viruses and allergens.
+            purifiers with true HEPA filters that filters 99.97% of particles as
+            small as 0.3 microns and captures particles we can’t see like
+            viruses, bacteria, mold and allergens
           </li>
           <li>
             Social distancing will be practiced and we will therefore limit the
             number of patients in our office. Only scheduled patients will be
             allowed inside the practice unless a person is a guardian of a
-            minor. Caretakers of elderly patients will be allowed inside to drop
-            off a patient, but we ask that caretakers wait outside the building
-            or in their vehicle until the patient’s appointment is completed.
+            minor.
           </li>
         </ul>
+        <p>Again, we are grateful for you and we are here for you!</p>
       </h5>
     </Container>
   );

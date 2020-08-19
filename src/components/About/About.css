@@ -1,0 +1,26 @@
+.flex-container-alt img {
+  max-width: 100%;
+}
+
+.flex-container-alt {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: row-reverse;
+}
+
+.flex-container-alt > div {
+  width: 50%;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 992px) {
+  .flex-container-alt {
+    display: block;
+  }
+
+  .flex-container-alt > div {
+    width: 100%;
+    padding: 2%;
+  }
+}

@@ -11,7 +11,7 @@ export default (props) => {
       <div>
         <ServiceBox
           name="Cleaning & Prevention"
-          body=" Dental cleaning is performed by one of our registered dental hygienists, followed by a thorough exam by Dr. Dogra. An x-ray of teeth and mouth is done on a semi-annual basis to evaluate the health of your teeth and mouth. "
+          body="Dental cleaning is performed and followed by a thorough exam by Dr. Dogra. An x-ray of teeth and mouth is done on a semi-annual basis to evaluate the health of your teeth and mouth. "
         />
         <Link to="/Services/CleaningAndPrevention">Learn More</Link>
       </div>
@@ -31,15 +31,15 @@ export default (props) => {
       </div>
       <div>
         <ServiceBox
-          name="Implants & Bridges"
-          body="After a tooth loss, dental implants offer  a lifetime of better chewing and confidence as they function like real teeth. A dental bridge is an alternative fixed appliance designed to replace missing teeth. "
+          name="Implants & Crowns"
+          body="Dental implants are titanium metal posts that are surgically positioned into the jawbone to serve as artificial teeth roots for missing teeth. Once implants are properly inserted, Dr. Dogra will carefully mount the replacement teeth onto them."
         />
-        <Link to="/Services/ImplantsAndBridges">Learn More</Link>
+        <Link to="/Services/Implants">Learn More</Link>
       </div>
       <div>
         <ServiceBox
           name="Root Canals"
-          body="Due to an unfortunate accidents or the decaying process of a tooth, occasionally the pulp and the nerve of teeth die or become infected. To treat infection and curb its potential spread, a root canal may be necessary."
+          body="Due to unfortunate accidents or tooth decay, the pulp and nerve of a tooth can die or become infected. Despite common thinking, a root canal procedure isn’t something to be scared of. The procedure is gentle and can relieve your tooth pain quickly."
         />
         <Link to="/Services/RootCanals">Learn More</Link>
       </div>

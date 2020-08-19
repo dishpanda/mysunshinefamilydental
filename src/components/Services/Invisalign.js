@@ -13,7 +13,7 @@ export default (props) => {
       <h2 className="heading-custom-2">
         <FontAwesomeIcon icon={faTooth} /> Invisalign
       </h2>
-      <h4 className="heading-custom-4 text-muted">How Does Invisalign Work?</h4>
+      <h4 className="heading-custom-4">How Does Invisalign Work?</h4>
       <div className="flex-service-container">
         <div>
           <p>
@@ -95,9 +95,7 @@ export default (props) => {
           </p>
         </div>
       </div>
-      <h4 className="heading-custom-4 text-muted">
-        Treatments Designed for You
-      </h4>
+      <h4 className="heading-custom-4">Treatments Designed for You</h4>
       <p>
         Invisalign&reg; clear aligners can treat a wide range of teeth
         straightening conditions. Using the most advanced technology,

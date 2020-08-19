@@ -18,7 +18,7 @@ export default (props) => {
             />{" "}
             Sunshine Family Dental
             <Container>
-              <small className="text-muted">Dr. Srutee Dogra, DDS</small>
+              <small>Dr. Srutee Dogra, DDS</small>
             </Container>
           </Navbar.Brand>
         </Link>
@@ -30,6 +30,15 @@ export default (props) => {
             </Link>
             <Link to="/COVID-19">
               <Nav.Link href="/COVID-19">COVID-19</Nav.Link>
+            </Link>
+            <Link to="/About">
+              <Nav.Link href="/About">About</Nav.Link>
+            </Link>
+            <Link to="/Forms">
+              <Nav.Link href="/Forms">Forms</Nav.Link>
+            </Link>
+            <Link to="/Insurance">
+              <Nav.Link href="/Insurance">Insurance</Nav.Link>
             </Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item>
@@ -43,21 +52,7 @@ export default (props) => {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/Services/Restorations">Restorations</Link>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item>
-                <Link to="/Services/Veneers">Veneers</Link>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item>
-                <Link to="/Services/ImplantsAndBridges">
-                  Implants & Bridges
-                </Link>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item>
-                <Link to="/Services/RootCanals">Root Canals</Link>
+                <Link to="/Services/Dentures">Dentures</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
@@ -65,19 +60,25 @@ export default (props) => {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
+                <Link to="/Services/Implants">Implants & Crowns</Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
                 <Link to="/Services/Invisalign">Invisalign</Link>
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/Services/Dentures">Dentures</Link>
+                <Link to="/Services/Restorations">Restorations</Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link to="/Services/RootCanals">Root Canals</Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item>
+                <Link to="/Services/Veneers">Veneers</Link>
               </NavDropdown.Item>
             </NavDropdown>
-            <Link to="/Forms">
-              <Nav.Link href="/Forms">Forms</Nav.Link>
-            </Link>
-            <Link to="/Insurance">
-              <Nav.Link href="/Insurance">Insurance</Nav.Link>
-            </Link>
             <Link to="/Contact">
               <Nav.Link href="/Contact">Contact</Nav.Link>
             </Link>

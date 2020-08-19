@@ -14,19 +14,19 @@ export default (props) => {
       <h2 className="heading-custom-2">
         <FontAwesomeIcon icon={faTooth} /> Extractions
       </h2>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         Tooth extractions are performed for a variety of reasons. The issue may
         be a painful wisdom tooth or a tooth that has been badly damaged by
         decay. In some cases, a tooth is removed to make space for dental
         prosthetics or braces.
       </h4>
-      <h3 className="heading-custom-3 text-muted">
+      <h3 className="heading-custom-3  ">
         Reasons for Porcelain Veneers
       </h3>
       <div className="flex-container-50">
         <div>
           <ol>
-            <h5 className="heading-custom-5 text-muted">
+            <h5 className="heading-custom-5  ">
               <li>A Crowded Mouth</li>
             </h5>
             <p>
@@ -38,7 +38,7 @@ export default (props) => {
               dentist may recommend pulling it.
             </p>
 
-            <h5 className="heading-custom-5 text-muted">
+            <h5 className="heading-custom-5  ">
               <li>Infection</li>
             </h5>
             <p>
@@ -51,7 +51,7 @@ export default (props) => {
               do not cure it, extraction may be needed to prevent the spread of
               infection.
             </p>
-            <h5 className="heading-custom-5 text-muted">
+            <h5 className="heading-custom-5  ">
               <li>Risk of Infection</li>
             </h5>
             <p>
@@ -60,7 +60,7 @@ export default (props) => {
               the risk of infection in a particular tooth may be reason enough
               to pull the tooth.
             </p>
-            <h5 className="heading-custom-5 text-muted">
+            <h5 className="heading-custom-5  ">
               <li>Periodontal (Gum) Disease</li>
             </h5>
             <p>
@@ -77,7 +77,7 @@ export default (props) => {
           />
         </div>
       </div>
-      <h3 className="heading-custom-3 text-muted">
+      <h3 className="heading-custom-3  ">
         What to Expect with Tooth Extraction
       </h3>
       <p>

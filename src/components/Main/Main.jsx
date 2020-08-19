@@ -9,6 +9,8 @@ import { Helmet } from "react-helmet";
 import NavigationBar from "../NavigationBar/NavigationBar";
 import Home from "../Home/Home";
 import COVID19 from "../COVID19/COVID19";
+import About from "../About/About";
+import ApptButton from "../ApptButton/ApptButton";
 import Services from "../Services/Services";
 import Forms from "../Forms/Forms";
 import Insurance from "../Insurance/Insurance";
@@ -18,7 +20,7 @@ import Footer from "../Footer/Footer";
 import CleaningAndPrevention from "../Services/CleaningAndPrevention";
 import Restorations from "../Services/Restorations";
 import Veneers from "../Services/Veneers";
-import ImplantsAndBridges from "../Services/ImplantsAndBridges";
+import Implants from "../Services/Implants";
 import RootCanals from "../Services/RootCanals";
 import Extractions from "../Services/Extractions";
 import Invisalign from "../Services/Invisalign";
@@ -45,6 +47,12 @@ class Main extends Component {
               <title>{"COVID-19 Update | " + TITLE}</title>
             </Helmet>
             <COVID19 />
+          </Route>
+          <Route exact path="/About">
+            <Helmet>
+              <title>{"About | " + TITLE}</title>
+            </Helmet>
+            <About />
           </Route>
           <Route exact path="/Services/Overview">
             <Helmet>
@@ -88,11 +96,11 @@ class Main extends Component {
             </Helmet>
             <Veneers />
           </Route>
-          <Route exact path="/Services/ImplantsAndBridges">
+          <Route exact path="/Services/Implants">
             <Helmet>
-              <title>{"Implants and Bridges | " + TITLE}</title>
+              <title>{"Implants and Crowns | " + TITLE}</title>
             </Helmet>
-            <ImplantsAndBridges />
+            <Implants />
           </Route>
           <Route exact path="/Services/RootCanals">
             <Helmet>
@@ -125,7 +133,7 @@ class Main extends Component {
             <FourZeroFour />
           </Route>
         </Switch>
-
+        <ApptButton />
         <Footer />
       </div>
     );

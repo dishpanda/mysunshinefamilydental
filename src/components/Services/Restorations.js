@@ -13,7 +13,7 @@ export default (props) => {
       <h2 className="heading-custom-2">
         <FontAwesomeIcon icon={faTooth} /> Restorations: Fillings and Crowns
       </h2>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         It’s great news that the incidence of tooth decay has significantly
         diminished due to an increase in patient awareness. However, teeth are
         still susceptible to decay, infection, and breakage. Through improved
@@ -30,7 +30,7 @@ export default (props) => {
             least invasive treatment. Providing you with excellent care is our
             number one priority when restoring your beautiful smile.
           </p>
-          <h5 className="heading-custom-5 text-muted">
+          <h5 className="heading-custom-5  ">
             Reasons for Restorative Dentistry
           </h5>
           <ul>
@@ -70,10 +70,10 @@ export default (props) => {
           />
         </div>
       </div>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         Porcelain Composite Fillings
       </h4>
-      <h5 className="heading-custom-5 text-muted">
+      <h5 className="heading-custom-5  ">
         At Sunshine Family Dental, we only use porcelain-composite fillings,
         also known as composite or white fillings. The material is a non-toxic
         and composed of porcelain and resins that matches the color of the
@@ -87,7 +87,7 @@ export default (props) => {
         fast becoming the standard of care for forward-thinking dentists and
         cosmetic dentists.
       </p>
-      <h5 className="heading-custom-5 text-muted">
+      <h5 className="heading-custom-5  ">
         Why Choose Porcelain-Composite Fillings?
       </h5>
       <div className="flex-service-container">
@@ -139,34 +139,42 @@ export default (props) => {
           </ol>
         </div>
       </div>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         Full Zirconia (Porcelain) Crowns
       </h4>
-      <h5 className="heading-custom-5 text-muted">
-        A crown is a covering that encases the entire tooth surface, restoring
-        it to its original shape and size.
+      <h5 className="heading-custom-5  ">
+        Crowns are a cosmetic restoration used to strengthen a tooth or improve
+        its shape. Crowns are most often used for teeth that are broken, worn,
+        or partially destroyed by tooth decay.
       </h5>
       <div className="flex-container-50">
         <div>
           <p>
-            A crown is most commonly used to protect and strengthen a tooth
-            structure that cannot be restored with fillings or other types of
-            restorations. However, crowns can also be used to cap teeth for
-            cosmetic reasons.
+            Crowns are "cemented" onto an existing tooth and fully cover the
+            portion of your tooth above the gum line. In effect, the crown
+            becomes your tooth's new outer surface. Crowns can be made of
+            porcelain, metal, or both. Porcelain crowns are most often preferred
+            because they mimic the translucency of natural teeth and are very
+            strong.
           </p>
           <p>
-            Porcelain crowns are made to match the shape, size, and color or
-            your teeth giving you a natural, long-lasting beautiful smile. They
-            are highly durable and will last many years.
+            Crowns or onlays (partial crowns) are needed when there is
+            insufficient tooth strength remaining to hold a filling. Unlike
+            fillings which apply the restorative material directly into your
+            mouth, a crown is fabricated away from your mouth. Your crown is
+            created in a lab from your unique tooth impression which allows a
+            dental laboratory technician to examine all aspects of your bite and
+            jaw movements. Your crown is then sculpted just for you so that your
+            bite and jaw movements function normally once the crown is placed.
           </p>
           <img
             src="https://www.pinclipart.com/picdir/big/524-5245158_tooth-clipart-crown-royalty-free-library-porcelain-components.png"
             alt="Diagram of a crown fitting."
-            style={{paddingTop:"2vh"}}
+            style={{ paddingTop: "2vh" }}
           />
         </div>
         <div>
-          <h5 className="heading-custom-5 text-muted">Reasons for Crowns</h5>
+          <h5 className="heading-custom-5  ">Reasons for Crowns</h5>
           <ul>
             <li>
               <p> Broken or Fractured Teeth </p>
@@ -187,7 +195,7 @@ export default (props) => {
               <p>Final Phase of Root Canal Therapy</p>
             </li>
           </ul>
-          <h5 className="heading-custom-5 text-muted">
+          <h5 className="heading-custom-5  ">
             What Does Getting a Crown Involve?
           </h5>
           <p>

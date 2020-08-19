@@ -14,7 +14,7 @@ export default (props) => {
       </h2>
       <div className="flex-service-container">
         <div>
-          <h4 className="heading-custom-4 text-muted">
+          <h4 className="heading-custom-4">
             Veneers are a great option to enhance your smile. Veneers are thin
             porcelain coverings over your teeth that will provide the desired
             shade and shape that generally requires little removal of tooth
@@ -25,9 +25,7 @@ export default (props) => {
             teeth will be minimally prepared or shaped to allow room. These
             restorations provide a conservative way to restore your teeth.
           </p>
-          <h5 className="heading-custom-5 text-muted">
-            Reasons for Porcelain Veneers
-          </h5>
+          <h5 className="heading-custom-5">Reasons for Porcelain Veneers</h5>
           <ul data-rte-list="default">
             <li>
               <p>Cosmetically, to create a uniform, white, beautiful smile.</p>
@@ -59,7 +57,7 @@ export default (props) => {
           />
         </div>
       </div>
-      <h5 className="heading-custom-5 text-muted">
+      <h5 className="heading-custom-5">
         What Does Getting Porcelain Veneers Involve?
       </h5>
       <div className="flex-container-50">

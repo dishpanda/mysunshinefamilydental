@@ -17,14 +17,19 @@ export default (props) => {
       </h2>
       <div className="flex-service-container">
         <div>
-          <h4 className="heading-custom-4 text-muted">
-            Dental cleaning is performed by one of our registered dental
-            hygienists, followed by a thorough exam by Dr. Dogra.
+          <h4 className="heading-custom-4">
+            Dental cleaning is performed and followed by a thorough exam by Dr.
+            Dogra.
           </h4>
           <p>
             The cleaning includes removal of plaque and tartar, inspection of
             gums, and a final polishing to buff out any stains that were not
             removed during your regular tooth brushing and flossing routine.
+          </p>
+          <p>
+            The exam and cleaning are treated like a conference where the doctor
+            will listen to your apprehensions and concerns and answer questions
+            so you can be your very best with your teeth.
           </p>
           <p>
             If you have a history of oral health issues or a specific problem at
@@ -62,7 +67,7 @@ export default (props) => {
       </div>
       <div className="flex-container-50">
         <div>
-          <h4 className="heading-custom-4 text-muted">What is Plaque?</h4>
+          <h4 className="heading-custom-4">What is Plaque?</h4>
           <p>
             Plaque is a sticky film that forms on your teeth every day: You
             know, that slippery/fuzzy coating you feel when you first wake up.
@@ -73,7 +78,7 @@ export default (props) => {
             coating helps the microbes attach to surfaces in your mouth so they
             can grow into thriving microcolonies.
           </p>
-          <h4 className="heading-custom-4 text-muted">
+          <h4 className="heading-custom-4">
             The Difference Between Plaque and Tartar
           </h4>
           <p>
@@ -89,7 +94,7 @@ export default (props) => {
           </p>
         </div>
         <div>
-          <h4 className="heading-custom-4 text-muted">What Causes Plaque?</h4>
+          <h4 className="heading-custom-4">What Causes Plaque?</h4>
           <p>
             Your mouth is a thriving ecosystem. Bacteria and other organisms
             come in when you eat, drink, and breathe. Most of the time, a
@@ -105,7 +110,7 @@ export default (props) => {
             Tooth decay from plaque can even happen under your gums where you
             can’t see it, eating away at the support for your teeth.
           </p>
-          <h4 className="heading-custom-4 text-muted">
+          <h4 className="heading-custom-4">
             What is the Treatment for Plaque?
           </h4>
           <p>

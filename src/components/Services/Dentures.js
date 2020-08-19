@@ -13,7 +13,7 @@ export default (props) => {
       <h2 className="heading-custom-2">
         <FontAwesomeIcon icon={faTooth} /> Dentures
       </h2>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         A standard denture is a removable dental appliance that replaces missing
         teeth and surrounding tissue. Dentures are made to closely resemble your
         natural teeth and may even enhance your smile.
@@ -57,7 +57,7 @@ export default (props) => {
             src="https://media.istockphoto.com/photos/the-dentist-is-holding-dentures-in-his-hands-dental-prosthesis-in-the-picture-id1177914966?k=6&m=1177914966&s=612x612&w=0&h=TXxUxWnNAp74oDQa_XFTTwkiOZNSR18-lB3gVa1c27g="
             alt="Tools used in tooth extraction are laid out on a surgical towel."
           />
-          <h4 className="heading-custom-4 text-muted">Reasons for Dentures</h4>
+          <h4 className="heading-custom-4  ">Reasons for Dentures</h4>
           <ul>
             <li>
               <p>Complete Denture to replace all teeth in an arch</p>
@@ -74,7 +74,7 @@ export default (props) => {
           </ul>
         </div>
       </div>
-      <h4 className="heading-custom-4 text-muted">
+      <h4 className="heading-custom-4  ">
         What Does Getting Dentures Involve?
       </h4>
       <div className="flex-container-50">
