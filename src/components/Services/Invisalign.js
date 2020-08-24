@@ -58,7 +58,7 @@ export default (props) => {
         <div>
           <img
             src="https://www.nicepng.com/png/full/914-9143926_open-aligner-case-with-invisalign-aligners-1-10.png"
-            alt="Tools used in tooth extraction are laid out on a surgical towel."
+            alt="Invisalign case."
           />
         </div>
       </div>

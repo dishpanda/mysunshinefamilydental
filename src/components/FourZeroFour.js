@@ -8,7 +8,7 @@ export default (props) => {
   return (
     <Jumbotron
       fluid
-      style={{ height: "calc(100vh - 128px)", backgroundColor: "#efefef" }}
+      style={{ height: "calc(100vh - 128px)", backgroundColor: "#fff" }}
     >
       <Container>
         <h1 className="text-muted">¯\_(ツ)_/¯</h1>

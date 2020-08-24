@@ -66,7 +66,7 @@ export default (props) => {
         <div>
           <img
             src="https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg"
-            alt="Dentist's chair"
+            alt="Dentist uses picks to inspect a patient's mouth."
           />
         </div>
       </div>

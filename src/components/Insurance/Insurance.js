@@ -23,8 +23,8 @@ export default (props) => {
           <a href="https://deltadental.com">
             <img
               className="insurance-logo"
-              src="https://brand.deltadental.com/content/dam/ddpa/us/en/logo/DD_signature_bounding_RGB.jpg"
-              alt="Delta Dental"
+              src="https://brand.deltadental.com/content/dam/ddpa/us/en/icons/DD_signature_unbounded_RGB.png"
+              alt="Logo of Delta Dental"
             />
           </a>
         </div>
@@ -33,7 +33,7 @@ export default (props) => {
             <img
               className="insurance-logo"
               src="https://www.aetna.com/content/dam/aetna/images/logos/Aetna_Logo_ss_Violet_RGB_Coated.svg"
-              alt="Aetna"
+              alt="Logo of Aetna"
             />
           </a>
         </div>
@@ -42,7 +42,7 @@ export default (props) => {
             <img
               className="insurance-logo"
               src="https://i.imgur.com/XT4SRqO.png"
-              alt="Cigna"
+              alt="Logo of Cigna"
             />
           </a>
         </div>
@@ -51,25 +51,17 @@ export default (props) => {
             <img
               className="insurance-logo"
               src="https://i.imgur.com/34oGsSI.png"
-              alt="MetLife"
+              alt="Logo of MetLife"
             />
           </a>
         </div>
+        <div></div>
         <div>
           <a href="https://www.blueshieldca.com/">
             <img
               className="insurance-logo"
               src="https://i.imgur.com/kY2Lt1u.png"
-              alt="Blue Shield of California"
-            />
-          </a>
-        </div>
-        <div>
-          <a href="https://carecredit.com">
-            <img
-              className="insurance-logo"
-              src="https://www.logolynx.com/images/logolynx/c2/c2de58d4869beea845aa7f88df2770c0.png"
-              alt="CareCredit"
+              alt="Logo of Blue Shield of California"
             />
           </a>
         </div>

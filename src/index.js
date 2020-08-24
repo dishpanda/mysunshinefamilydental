@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "./components/NavigationBar/NavigationBar.css"
 import App from "./App";
 import ScrollToTop from "./ScrollToTop";
 import { HashRouter } from "react-router-dom";

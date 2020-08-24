@@ -43,7 +43,7 @@ export default (props) => {
         <div>
           <img
             src={drDogra}
-            alt="Tools used in tooth extraction are laid out on a surgical towel."
+            alt="Dr. Dogra."
           />
           <p className="">
             <em>Dr. Dogra</em>
@@ -72,7 +72,7 @@ export default (props) => {
         <div>
           <img
             src={carina}
-            alt="Tools used in tooth extraction are laid out on a surgical towel."
+            alt="Carina Pena."
           />
           <p className="">
             <em>Carina Pena</em>
@@ -94,7 +94,7 @@ export default (props) => {
         <div>
           <img
             src={laura}
-            alt="Tools used in tooth extraction are laid out on a surgical towel."
+            alt="Laura Diaz."
           />
           <p>
             <em>Laura Diaz</em>

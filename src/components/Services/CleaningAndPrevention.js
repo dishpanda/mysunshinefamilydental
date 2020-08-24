@@ -62,7 +62,7 @@ export default (props) => {
           </ul>
         </div>
         <div>
-          <img src={chair} alt="Dentist's chair" />
+          <img src={chair} alt="Dentist's chair." />
         </div>
       </div>
       <div className="flex-container-50">

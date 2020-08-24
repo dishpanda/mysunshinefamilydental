@@ -55,7 +55,7 @@ export default (props) => {
         <div>
           <img
             src="https://media.istockphoto.com/photos/the-dentist-is-holding-dentures-in-his-hands-dental-prosthesis-in-the-picture-id1177914966?k=6&m=1177914966&s=612x612&w=0&h=TXxUxWnNAp74oDQa_XFTTwkiOZNSR18-lB3gVa1c27g="
-            alt="Tools used in tooth extraction are laid out on a surgical towel."
+            alt="Dentist holding dentures in their hand."
           />
           <h4 className="heading-custom-4  ">Reasons for Dentures</h4>
           <ul>

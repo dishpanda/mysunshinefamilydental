@@ -29,42 +29,51 @@ export default (props) => {
             <Container>
               <h3>Shoot us an email if you have any questions!</h3>
               <h5>
-                Schedule an appointment by calling us at <a href="tel:9256009006">925·600·9006</a>
+                Schedule an appointment by calling us at{" "}
+                <a href="tel:9256009006">925·600·9006</a>
               </h5>
-              <InputGroup className="mb-3">
-                <InputGroup.Prepend>
-                  <InputGroup.Text>Name</InputGroup.Text>
-                </InputGroup.Prepend>
-                <FormControl
-                  placeholder="First Name"
-                  aria-label="First Name"
-                  aria-describedby="basic-addon1"
-                />
-                <FormControl
-                  placeholder="Last Name"
-                  aria-label="Last Name"
-                  aria-describedby="basic-addon1"
-                />
-              </InputGroup>
-              <InputGroup className="mb-3">
-                <InputGroup.Prepend>
-                  <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-                </InputGroup.Prepend>
-                <FormControl
-                  placeholder="Your Email"
-                  aria-label="Email"
-                  aria-describedby="basic-addon1"
-                />
-              </InputGroup>
-              <InputGroup>
-                <InputGroup.Prepend>
-                  <InputGroup.Text> Your Message</InputGroup.Text>
-                </InputGroup.Prepend>
-                <FormControl as="textarea" aria-label="With textarea" />
-              </InputGroup>
-              <div className="my-3">
-                <Button type="submit">Submit form</Button>
-              </div>
+              <form
+                id="fs-frm"
+                name="contact-us-form"
+                accept-charset="utf-8"
+                action="https://formspree.io/sunshinefamilydds@gmail.com"
+                method="post"
+              >
+                <InputGroup className="mb-3">
+                  <InputGroup.Prepend>
+                    <InputGroup.Text>Name</InputGroup.Text>
+                  </InputGroup.Prepend>
+                  <FormControl
+                    placeholder="First and Last Name"
+                    aria-label="First and Last Name"
+                    aria-describedby="basic-addon1"
+                    name="name"
+                    id="full-name"
+                  />
+                </InputGroup>
+                <InputGroup className="mb-3">
+                  <InputGroup.Prepend>
+                    <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
+                  </InputGroup.Prepend>
+                  <FormControl
+                    placeholder="Your Email"
+                    aria-label="Email"
+                    aria-describedby="basic-addon1"
+                    type="email"
+                    name="reply-to"
+                    id="email-address"
+                  />
+                </InputGroup>
+                <InputGroup>
+                  <InputGroup.Prepend>
+                    <InputGroup.Text> Your Message</InputGroup.Text>
+                  </InputGroup.Prepend>
+                  <FormControl as="textarea" aria-label="Text Area" name="message" id="message"/>
+                </InputGroup>
+                <div className="my-3">
+                  <Button type="submit">Submit form</Button>
+                </div>
+              </form>
             </Container>
           </div>
         </div>

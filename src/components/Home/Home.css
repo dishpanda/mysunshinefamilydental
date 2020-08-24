@@ -1,5 +1,4 @@
 .body {
-  /* background-color: #efefef; */
   padding: 2rem 0;
   width: 100%;
 }
@@ -31,7 +30,7 @@
   }
 
   .body {
-    background-color: #efefef;
+    background-color: #fff;
     padding-top: 2rem;
   }
 

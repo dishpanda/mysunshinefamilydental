@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 
 import "./Main.css";
+import NavigationBar from "../NavigationBar/NavigationBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import NavigationBar from "../NavigationBar/NavigationBar";
 import Home from "../Home/Home";
 import COVID19 from "../COVID19/COVID19";
 import About from "../About/About";
-import ApptButton from "../ApptButton/ApptButton";
 import Services from "../Services/Services";
 import Forms from "../Forms/Forms";
 import Insurance from "../Insurance/Insurance";
@@ -27,7 +26,7 @@ import Invisalign from "../Services/Invisalign";
 import Dentures from "../Services/Dentures";
 
 const TITLE =
-  "Sunshine Family Dental | Dr. Sruthee Dogra, DDS | Pleasanton, CA";
+  "Sunshine Family Dental | Dr. Shrutee Dogra, DDS | Pleasanton, CA";
 
 class Main extends Component {
   render() {
@@ -133,7 +132,6 @@ class Main extends Component {
             <FourZeroFour />
           </Route>
         </Switch>
-        <ApptButton />
         <Footer />
       </div>
     );

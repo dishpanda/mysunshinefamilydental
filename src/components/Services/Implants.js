@@ -81,7 +81,7 @@ export default (props) => {
         <div>
           <img
             src="https://images.unsplash.com/photo-1525893277997-207c04d47d65"
-            alt="This is a snapshot of one of the most expensive dental treatments available in dentistry today. Four dental implants are used to secure a dental bridge of 12 teeth to restore the function and aesthetics of your teeth. "
+            alt="One of the most expensive dental treatments available in dentistry today. Four dental implants are used to secure a dental bridge of 12 teeth to restore the function and aesthetics of your teeth. "
           />
           <h5 className="heading-custom-5">Reasons for Dental Implants</h5>
           <ul>
@@ -147,12 +147,6 @@ export default (props) => {
           </p>
         </li>
       </ul>
-      <p>
-        Some people think that dental implants are out of their price range,
-        this is not necessarily the case. Visit{" "}
-        <a href="https://carecredit.com/">CareCredit</a> to discuss financing
-        options available and determine if dental implants are right for you.
-      </p>
     </Container>
   );
 };
